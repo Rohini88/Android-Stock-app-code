@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrmMain_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="{relativePackage}.${activityClass}"
+    android:background="#ffeee1">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:background="#ffe1d7">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/BtnAdd"
+            android:id="@+id/BtnAdd"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_marginLeft="250dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="@string/BtnRemove"
+            android:id="@+id/BtnRemove"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="1dp"
+        android:background="#ffeee1">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+                <ListView
+                    android:id="@+id/listV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#ffeee1"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="560dp"
+        android:background="#ffe1d7">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="1dp">
+
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>
+    </FrameLayout>

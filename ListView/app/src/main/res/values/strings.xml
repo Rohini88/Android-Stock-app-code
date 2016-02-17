@@ -1,0 +1,67 @@
+<resources>
+    <string name="quote_appName">Ex03-Quote</string>
+    <string name="quote_subName">Ex03-Quote-sub</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="lbl_aapl">XXXX</string>
+    <string name="lbl_txtVOne">000.00</string>
+
+    <string name="lbl_appinc">XXXX  </string>
+
+    <string name="LblTxtVBid">Bid:</string>
+    <string name="LblTxtVAsk">Ask:</string>
+
+    <string name="lbl_txtVTwo">000.00</string>
+    <string name="lbl_txtVThree">000.00</string>
+
+
+    <string name="BtnAdd">+</string>
+    <string name="BtnRemove">-</string>
+    <string name="SRefreshBtn">+</string>
+    <string name="SStopBtn">+</string>
+    <string name="SStartBtn">+</string>
+    <string name="RefreshBtn">+</string>
+    <string name="StopBtn">+</string>
+    <string name="StartBtn">+</string>
+
+
+    <string name="SpacetxtV5"></string>
+
+
+
+
+    <string name="Slbl_aapl">XXXX</string>
+    <string name="Slbl_txtVOne">000.00</string>
+
+    <string name="Slbl_appinc">XXXX  </string>
+
+    <string name="SLblTxtVBid">Bid:</string>
+    <string name="SLblTxtVAsk">Ask:</string>
+
+    <string name="Slbl_txtVTwo">000.00</string>
+    <string name="Slbl_txtVThree">000.00</string>
+
+
+
+
+
+    <string name="StxtVBid">000.00 x 000</string>
+    <string name="STxtVAsk">000.00 x 000</string>
+    <string name="SLblOpen">Open      :</string>
+    <string name="STxtVOpen">000.00</string>
+    <string name="SLblPreClose">Pre-Close:   </string>
+    <string name="STxtVPreClose">000.00</string>
+    <string name="SLblHigh">High:</string>
+    <string name="STxtVHigh">000.00</string>
+    <string name="SLblLow">Low: </string>
+    <string name="STxtVLow">000.00</string>
+    <string name="SLblwH">52w high: </string>
+    <string name="STxtVWHigh">000.00</string>
+    <string name="Slbl_clock">00:00</string>
+    <string name="SLblwL">52w low:</string>
+    <string name="STxtVWLow">00.00</string>
+
+
+
+</resources>
